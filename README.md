@@ -256,9 +256,7 @@ npm run format
 firebase deploy --only firestore:rules
 ```
 
-## 📝 License
 
-MIT License - see LICENSE file
 
 ## 👥 Contributing
 
@@ -289,7 +287,7 @@ MIT License - see LICENSE file
 
 - Documentation: See `/docs` folder
 - Issues: GitHub Issues
-- Email: support@careerpredictor.ai
+- Email: mmnagarjunareddy@gmail.com
 
 ---
 
