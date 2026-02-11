@@ -1,0 +1,33 @@
+/* Component-specific styles */
+
+.card {
+  @apply bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow;
+}
+
+.btn-primary {
+  @apply px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition disabled:opacity-50;
+}
+
+.btn-secondary {
+  @apply px-6 py-3 border-2 border-gray-300 rounded-lg font-semibold hover:bg-gray-50 transition;
+}
+
+.input-field {
+  @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+}
+
+.skill-tag {
+  @apply px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium;
+}
+
+.progress-step {
+  @apply w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg;
+}
+
+.progress-step.active {
+  @apply bg-blue-600 text-white;
+}
+
+.progress-step.inactive {
+  @apply bg-gray-200 text-gray-600;
+}
